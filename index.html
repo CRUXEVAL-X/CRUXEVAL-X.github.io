@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&display=swap"
+    rel="stylesheet"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>DomainEval</title>
+    <link
+      rel="icon"
+      href="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/2615.svg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "JetBrains Mono", monospace;
+        background-color: #ffffff;
+        color: #000000;
+      }
+
+      .container-fluid {
+        margin-top: 10%;
+      }
+
+      @media screen and (max-width: 1400px) {
+        body {
+          font-size: 1.9vw;
+        }
+        h1 {
+          font-size: 2em;
+        }
+
+        h2 {
+          font-size: 1.6em;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .container-fluid {
+          margin-top: 30vh;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid d-flex flex-column align-items-center gap-3">
+      <img
+        src="assets/logo.png"
+        alt="DomainEval Logo"
+        style="max-width: 180px; width: 20%"
+      />
+      <h1 class="text-nowrap"><b>DomainEval</b></h1>
+      <div class="px-5">
+        <p>
+          An Auto-Constructed Benchmark for Multi-Domain Code Generation
+        </p>
+        <p class="text-center">
+          <a href="./leaderboard.html">Leaderboard</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
