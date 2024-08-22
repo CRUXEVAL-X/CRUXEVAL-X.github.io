@@ -118,11 +118,11 @@
         /></a>
         <a href="https://huggingface.co/spaces/your-space-name"
           ><img
-            src="https://img.shields.io/badge/Hugging%20Face%20Spaces-%23FFD21E.svg?style=for-the-badge&logo=hugging-face&logoColor=black"
+            src="https://img.shields.io/badge/space-%23FFD21E.svg?style=for-the-badge&logo=hugging-face&logoColor=black"
             alt="space"
             class="img-fluid"
         /></a>
-        <a href="https://github.com/domaineval/"
+        <a href="https://github.com/CRUXEVAL-X/CRUXEVAL-X.github.io/"
           ><img
             src="https://img.shields.io/badge/code-%23333333.svg?style=for-the-badge&logo=github&logoColor=white"
             alt="code"
@@ -221,31 +221,22 @@
         <div class="inline-block mt-3">
           <ol>
             <li>
-              Evaluated using
-              <a href="https://github.com/evalplus/humanevalplus_release"
-                >HumanEval+</a
-              >
-              version 0.1.10;
-              <a href="https://github.com/evalplus/mbppplus_release">MBPP+</a>
-              version 0.2.0.
+              Thank you for your interest in DomainEval. We warmly welcome
+          researchers to submit additional benchmarking results, as we believe
+          that collaborative efforts can significantly advance the study of
+          Large Language Models and software engineering. For submission
+          guidelines, please refer to our
+          <a
+            href="https://github.com/cruxeval-x/"
+            >Github Repo</a
+          >.
             </li>
             <li>
-              Models are ranked according to pass@1 using greedy decoding. Setup
-              details can be found
-              <a
-                href="https://github.com/evalplus/evalplus/blob/master/codegen/model.py"
-                >here</a
-              >.
+              Models are ranked according to pass@1 using greedy decoding. 
             </li>
             <li>
               ✨ marks models evaluated using a chat setting, while others
               perform direct code completion.
-            </li>
-            <li>
-              Both MBPP and MBPP+ referred in our leaderboard use a subset (399
-              tasks) of hand-verified problems from MBPP-sanitized (427 tasks),
-              to make sure the programming task is well-formed (e.g., test_list
-              is not wrong).
             </li>
             <li>
               Model providers have the responsibility to avoid data
@@ -265,13 +256,25 @@
           </ol>
         </div>
       </div>
-      <div id="notes">
-        <h3>🤗 More Leaderboards</h3>
-        In addition to EvalPlus leaderboards, it is recommended to
-        comprehensively understand LLM coding ability through a diverse set of
-        benchmarks and leaderboards, such as:
+      <div id="Acknowledgement">
+        <h3>🤗 Acknowledgement</h3>
+        Thanks for the
+        <a href="https://evalplus.github.io/leaderboard.html">EvalPlus</a> for
+        sharing the leaderboard template. In addition to DomainEval leaderboards,
+        it is recommended to comprehensively understand LLM coding ability
+        through a diverse set of benchmarks and leaderboards, such as:
         <div class="inline-block mt-3">
           <ol>
+            <li>
+              <a href="https://evalplus.github.io/leaderboard.html"
+                >EvalPlus Leaderboard</a
+              >
+            </li>
+            <li>
+              <a href="https://java-bench.github.io/leaderboard.html"
+                >JavaBench</a
+              >
+            </li>
             <li>
               <a href="https://bigcode-bench.github.io/">BigCodeBench</a>
             </li>
