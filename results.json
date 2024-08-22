@@ -42,7 +42,7 @@
             "swift_output": 76.0,
             "ts_output": 76.4
         },
-        "prompted": true,
+        "prompted": false,
         "size": null
     },
     "gpt-4o-mini": {
