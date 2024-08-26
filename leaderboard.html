@@ -568,7 +568,7 @@
           if (prompted) {
             // add a symbol to indicate the model is prompted
             var promptedSymbol = document.createElement("span");
-            promptedSymbol.textContent = "✨";
+            promptedSymbol.textContent = "";
             modelCell.appendChild(promptedSymbol);
           }
           if (opendata.toUpperCase() == "FULL") {
@@ -588,7 +588,7 @@
           if (table == originTable) {
             passCell.classList.add("text-danger");
           } else if (table == plusedTable) {
-            passCell.textContent = "⚡";
+            passCell.textContent = "";
             passCell.classList.add("text-success");
           }
           passCell.textContent += row["pass@1"][score];
